@@ -1,0 +1,12 @@
+{
+  "name": "qafront",
+  "displayName": "qafront",
+  "expo": {
+    "name": "qafront",
+    "slug": "qafront",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
