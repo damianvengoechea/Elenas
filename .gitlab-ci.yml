@@ -1,0 +1,11 @@
+stages:
+  - unit-test
+
+backend-unit-test:
+  stage: unit-test
+  image: python
+  before_script:
+    - cd qaback
+    - pip3 install -r requirements.txt
+  script:
+    - ./manage.py test
