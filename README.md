@@ -14,6 +14,18 @@
 Corre el servidor con `python manage.py runserver`
 Corre las pruebas con `python manage.py test`
 
+### Con docker / docker-compose
+
+En la subcarpeta de `qaback`
+
+`docker build --tag prueba .`
+
+`docker run --publish 8000:8000 --name p prueba python manage.py runserver 0.0.0.0:8000`
+
+Para correr cualcuier otro commando, como pruebas:
+
+`docker run --publish 8000:8000 --name p prueba python manage.py test`
+
 ## Tarea
 
 La carpeta mysite contiente un projecto python basico.
@@ -23,3 +35,7 @@ Agrega al menos una prueba de la vista `http://127.0.0.1:8000/polls/1/` con una 
 
 Opcional:
 Corre tu prueba como parte de una tarea en gitlabCI.
+
+```
+
+```
