@@ -31,7 +31,9 @@ Para correr cualcuier otro commando, como pruebas:
 La carpeta mysite contiente un projecto python basico.
 El file “.gitlab-ci.yml” contiene la specification de GitlabCI que corre las pruebas de django.
 
-Agrega al menos una prueba de la vista `http://127.0.0.1:8000/polls/1/` con una herramienta de prueba end-to-end (Selenium, Cypress etc).
+Agrega al menos 3 scripts de pruebas de la vista `http://127.0.0.1:8000/polls/1/` con una herramienta de prueba end-to-end (Selenium, Cypress etc).
+
+(Punto opcional). Agrega 1 script de prueba móvil libre (la que quieras)
 
 Opcional:
 Corre tu prueba como parte de una tarea en gitlabCI.
